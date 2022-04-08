@@ -1,0 +1,197 @@
+
+.navbar{
+    width: 98.4vw;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    display: grid;
+    margin-left: -1vw;
+    grid-template-columns: 10% 77% 10%;
+    z-index: 1;
+}
+.img1{
+    text-align: center;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 20% 13% 11% 13% 13% 13% 13% 15% ;
+    font-size: 1.3vw;
+    text-align: right;
+}
+.artel{
+    width: 77%;
+    padding: 5% 4% 5% 4%;
+}
+.select1{
+        text-align: center;
+       padding: 5% 4% 5% 4%;
+}
+.selectdiv{
+    padding: 9% 4% 5% 4%;
+}
+.fondiv{
+   width: 100%;
+   margin-left: -0.9%;
+}
+.fon{
+    width: 98.2vw;
+}
+.cards{
+    padding-top: 3%;
+    grid-gap: 1%;
+    text-align: center;
+    width: 97vw;
+    display: grid;
+    grid-template-columns: 20% 19% 19% 19% 19%;
+}
+
+.cards img{
+    width: 13vw;
+    
+    text-align: center;
+}
+.cards div{
+    border: 1px solid rgb(201, 196, 196);
+    box-shadow: 3px 3px 5px  green;
+}
+.medium_navbar{
+    border: 1px solid rgb(104,187,70);
+    display: grid;
+    width: 96.2vw;
+    margin-left: -0.9vw;
+    padding: 0.9vw;
+    grid-template-columns: 24% 24% 24% 24%;
+    background-color: rgb(104,187,70);
+}
+
+.medium_div img{
+   width: 4vw;
+   background-color: white;
+   border: 1px solid white;
+   border-radius: 30px;
+   padding: 1vw;
+}
+.medium_div{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+.news_div img{
+    width: 30vw;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 1vw;
+    padding-left: 1vw;
+}
+.news_div{
+    border: 1px solid white;
+    text-align: center;
+    width: 30vw;
+    box-shadow: 3px 3px 5px gray;
+}
+.news_div a{
+    text-decoration: none;
+    color: rgb(104,187,70);
+}
+.news_div span{
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+.news_div:hover{
+   transform: scale(1.02);
+   cursor:pointer;
+   transition: 1s;
+}
+
+
+.topbutton{
+    width: 2.5vw;
+    height: 2.5vw;
+    --offset: -120vh; 
+    position: sticky;
+    margin-left: 87vw; 
+    margin-top: calc(100vh + var(--offset));
+    padding: 1.5vw;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    box-shadow: 5px 3px 10px gray;
+}
+.button1:hover{
+    background-color: green;
+    transition: 1s;
+}
+.button1{
+   border: 1px solid green;
+}
+
+.button1{
+    width: 13vw;
+    height: 4vw;
+    border-radius: 10px;
+}
+.button2{
+     padding-top: 1vw;
+
+}
+.feedback{
+    text-align: center;
+    display: grid;
+    padding: 1vw;   
+    line-height: 3vw; /* qatorlar orasidagi masofa */  
+    background-color: rgb(104,187,70);
+    grid-template-columns: 24% 24% 24% 24%;
+    width: 96.4vw;
+    margin-left: -1vw;
+
+}
+.tel a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+}
+.tel span{
+    color: white;
+    font-weight: bold;
+}
+.input1 input{
+    border-radius: 5px;
+    border: 1px gray;
+    height: 2.5vw;
+}
+footer{
+    display: grid;
+    grid-template-columns: 35% 30% 30%;
+    background-color: rgb(75, 74, 74);
+    width: 98.4vw;
+    margin-left: -1vw;
+    text-align: center;
+    line-height: 3vw;
+}
+.footer1 a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer1 a:hover{
+   text-decoration: underline aliceblue;
+}
+.credits{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: rgb(26, 25, 25);
+    width: 97.4vw;
+    margin-left: -1vw;
+    text-align: center;
+    padding: 0.5vw;
+}
+.credits1 a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: rgb(200, 202, 204);
+}
+
